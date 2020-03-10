@@ -59,7 +59,15 @@ build  make.bat  Makefile  source
 
 ## autogenerate .rst files
 ```console
-eve@house:~/docs$ 
-sphinx-apidoc -o source/ ../<code package>
+eve@house:~/docs$ sphinx-apidoc -o source/ ../<code package>
  ```
+ 
+ ## Build
+```console
+eve@house:~/docs$ sphinx-build -b html source/ build/
+ ```
+ 
+ And... ready ... your documentation is in the build directory
+ 
+
  
