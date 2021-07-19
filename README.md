@@ -2,7 +2,7 @@
 autogenerate documentation for python using sphinx
 
 
-## Install  phinx
+## Install  Sphinx
 ```console
 eve@house:~$ pip install sphinx
 ```
