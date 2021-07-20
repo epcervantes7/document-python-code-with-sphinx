@@ -69,7 +69,7 @@ edit extensions line
 extensions = ['sphinx.ext.todo', 'sphinx.ext.viewcode', 'sphinx.ext.autodoc']
  ```
  
- edit sys.path
+ edit uncomment lines related to sys.path and add the paths to your code source
  ```python
 import os
 import sys
